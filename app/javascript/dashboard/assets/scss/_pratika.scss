@@ -1,0 +1,57 @@
+/* ==========================================================================
+   PRÁTIKA FACILITIES - THEME OVERRIDES & WHITE-LABEL
+   Isolated SCSS layer for zero-conflict upgrades
+   ========================================================================== */
+
+:root {
+  /* Prátika Facilities Primary Brand Palette */
+  --pratika-navy: 15 43 72;        /* #0F2B48 */
+  --pratika-navy-dark: 11 32 54;   /* #0B2036 */
+  --pratika-blue: 0 163 224;       /* #00A3E0 */
+  --pratika-blue-light: 56 189 248;/* #38BDF8 */
+  --pratika-bg: 248 250 252;       /* #F8FAFC */
+  --pratika-card: 255 255 255;     /* #FFFFFF */
+}
+
+/* Custom Login Page Enhancements */
+.login-header-logo {
+  max-height: 48px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Facilities Department Tag Styling */
+.badge-dept-limpeza {
+  background-color: #E0F2FE;
+  color: #0369A1;
+}
+
+.badge-dept-portaria {
+  background-color: #FEF3C7;
+  color: #B45309;
+}
+
+.badge-dept-jardinagem {
+  background-color: #DCFCE7;
+  color: #15803D;
+}
+
+.badge-dept-recepcao {
+  background-color: #F3E8FF;
+  color: #6B21A8;
+}
+
+.badge-dept-financeiro {
+  background-color: #FEE2E2;
+  color: #B91C1C;
+  font-weight: 600;
+}
+
+/* Clean UI & Topbar refinement */
+.header--wrap {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
